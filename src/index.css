@@ -92,6 +92,8 @@ code {
 
 .Nav-add-user{
   margin-right: 15px;
+  color:#fff;
+  
 }
 .Nav-manage-admin{
   margin-right: 50px;
@@ -100,5 +102,10 @@ code {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
-  margin-bottom: 17px;
+  padding-bottom: 20px;
+}
+.parent-form{
+  align-self: center;
+  margin: 150px 150px;
+
 }
