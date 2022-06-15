@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Components/Home';
+import ManageAdmin from './Components/ManageAdmin';
 
 function App() {
 /*
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/users" element={<User />} />
+          <Route exact path="/manageadmin" element={<ManageAdmin />} />
         </Routes>
       </Router>
     </div>
