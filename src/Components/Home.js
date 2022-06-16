@@ -1,7 +1,18 @@
 import React from "react";
+import cData from "../data.js"
 
 export default function Home(){
+
+    const [data, Setdata] = React.useState("");
+    function getData(){
+        const Cdata = cData.currency
+        Setdata(Cdata)
+    }
+
     return(
-        <h1 className="home">This is Home page</h1>
+        <div>
+            <button onClick={getData}>Click</button>
+            <h1>{data}</h1>
+        </div>
     )
 }

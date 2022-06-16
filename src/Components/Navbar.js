@@ -8,7 +8,7 @@ export default function Navbar(){
             <Link to="/"><img src={logo} alt="logo" className="nav--logo"/></Link>
             <h3 className="nav--text">CNG Locator</h3>
             <Link className="Nav-add-user" to="/users">Add User</Link>
-            <Link className="Nav-add-user" to="/manageaddmin">Manage Admin</Link>
+            <Link className="Nav-add-user" to="/manageadmin">Manage Admin</Link>
         </nav>
     )
 }
