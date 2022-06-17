@@ -1,4 +1,4 @@
-export default[
+export default
     {
       "currency": "BTC",
       "id": "BTC",
@@ -51,4 +51,3 @@ export default[
         ]
       }
     }
-  ]
